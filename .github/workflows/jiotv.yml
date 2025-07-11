@@ -3,7 +3,7 @@ name: Update jiotv.m3u
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 */6 * * *'
 
 jobs:
   update-file:
